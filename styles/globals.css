@@ -2,11 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 400 16px/1.4 "Open Sans",sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
+  color: #5d5d5d;
 }
 
 a {
@@ -25,4 +26,40 @@ a {
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100% !important;
+  display: flex;
+}
+
+.col-lg-7 {
+  width: 58.3333333333%;
+}
+
+.col-lg-5 {
+  width: 41.6666666667%;
+}
+
+.basic-hero {
+  position: relative;
+}
+
+.basic-hero__content {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.basic-hero__content h1 {
+  color: #fff;
+  font-size: 42px;
+    line-height: 48px;
+  margin: 96px auto auto;
+  width: 660px;
 }
