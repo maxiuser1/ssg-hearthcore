@@ -1,13 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { getPageWithUrl } from "../../lib/api";
-import { IParams } from "../../lib/IParams";
+import { getPageWithUrl } from "../lib/api";
+import { IParams } from "../lib/IParams";
 
-export const DynamicPage = ({ page }: any) => (
-  <div>
-    <h1>{page.header}</h1>
-    <div dangerouslySetInnerHTML={{ __html: page.subheader }}></div>
-  </div>
-);
+export const DynamicPage = ({ page }: any) => <div>hihi hihi hihi</div>;
 
 export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
   return {

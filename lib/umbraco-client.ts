@@ -1,8 +1,8 @@
 import { Client } from "@umbraco/headless-client";
 
 const client = new Client({
-  projectAlias: "joses-good-wombat",
-  apiKey: "QC4IoRbCy63O5VQc72Cz",
+  projectAlias: "joses-easygoing-squirrel",
+  apiKey: "1oW3IFgDrVTjoOJHjm5F",
 });
 
 export default client;
